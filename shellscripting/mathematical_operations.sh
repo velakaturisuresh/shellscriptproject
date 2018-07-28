@@ -2,11 +2,11 @@
 
 
 echo "enter a value"
-read a
+a=$1
 
 
 echo "enter b value"
-read b
+b=$2
 
 add=`expr $a + $b`
 echo "$add"
