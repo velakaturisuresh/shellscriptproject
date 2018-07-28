@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "Enter a value"
-read a
+a=$1
 
 rem=$(($a % 2))
 
