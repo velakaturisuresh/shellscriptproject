@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "Enter the value of n"
-read n
+n=$1
 i=0
 sum=0
 while [ $i -lt $n ]
