@@ -1,11 +1,11 @@
 #!/bin/sh
 
 echo "Enter p value"
-read p
+p=$1
 echo "enter n value"
-read n
+n=$2
 echo "enter r value"
-read r
+r=$3
 
 si=` expr $p \* $n \* $r `
 si=` expr $si / 100`
