@@ -1,10 +1,10 @@
 #!/bin/sh 
 
 echo "enter a value"
-read a
+a=$1
  
 echo "enter b value"
-read b
+b=$2
  
 echo "enter choice"
 echo "1.Addition"
@@ -12,7 +12,7 @@ echo "2.Substraction"
 echo "3.Multiplication"
 echo "4.Division"
 
-read choice
+choice=$3
  
 case $choice in 
 
